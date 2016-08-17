@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">gittest</string>
+    <string name="main_listview">ListView</string>
+    <string name="main_recyclerView">RecyclerView</string>
 </resources>
