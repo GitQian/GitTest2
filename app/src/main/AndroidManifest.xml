@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.listview.ListViewActivity"></activity>
+        <activity android:name=".activity.listview.ListViewActivity" />
+        <activity android:name=".activity.listview.ListOptionsActivity" />
+        <activity android:name=".activity.listview.MultiLayoutActivity"></activity>
     </application>
 
 </manifest>

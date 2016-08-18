@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/send_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dip"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="2015年12月1日"
+        android:textColor="#777777"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/iv_msgTypeIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/send_time"
+        android:layout_marginTop="2dp"
+        android:focusable="false"
+        android:padding="3dp"
+        android:src="@drawable/icon_strat_warning" />
+
+    <LinearLayout
+        android:id="@+id/lly_chatcontent_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/send_time"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/iv_msgTypeIcon"
+        android:background="@drawable/msg_qipao"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_sos_chatcontent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:maxWidth="220dp"
+            android:text="来自人伤救援紧急通知!"
+            android:textColor="#222"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

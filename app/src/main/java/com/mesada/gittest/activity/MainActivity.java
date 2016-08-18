@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.mesada.gittest.R;
+import com.mesada.gittest.activity.listview.ListOptionsActivity;
 import com.mesada.gittest.activity.listview.ListViewActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_listview_main:
-                Intent intent = new Intent(MainActivity.this, ListViewActivity.class);
+                Intent intent = new Intent(MainActivity.this, ListOptionsActivity.class);
                 startActivity(intent);
                 break;
 
