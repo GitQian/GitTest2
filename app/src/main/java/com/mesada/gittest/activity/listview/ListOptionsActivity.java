@@ -16,6 +16,7 @@ public class ListOptionsActivity extends AppCompatActivity implements View.OnCli
 
         findViewById(R.id.btn_convert_listoptions).setOnClickListener(this);
         findViewById(R.id.btn_multi_listoptions).setOnClickListener(this);
+        findViewById(R.id.btn_right_listoptions).setOnClickListener(this);
     }
 
     @Override
@@ -29,6 +30,11 @@ public class ListOptionsActivity extends AppCompatActivity implements View.OnCli
             case R.id.btn_multi_listoptions:
                 Intent intent1 = new Intent(ListOptionsActivity.this, MultiLayoutActivity.class);
                 startActivity(intent1);
+                break;
+
+            case R.id.btn_right_listoptions:
+                Intent intent2 = new Intent(ListOptionsActivity.this, MultiLayoutRightActivity.class);
+                startActivity(intent2);
                 break;
 
             default:

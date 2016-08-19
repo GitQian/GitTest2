@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".activity.listview.ListViewActivity" />
         <activity android:name=".activity.listview.ListOptionsActivity" />
-        <activity android:name=".activity.listview.MultiLayoutActivity"></activity>
+        <activity android:name=".activity.listview.MultiLayoutActivity" />
+        <activity android:name=".activity.listview.MultiLayoutRightActivity"></activity>
     </application>
 
 </manifest>

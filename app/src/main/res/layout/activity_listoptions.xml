@@ -16,10 +16,17 @@
         android:text="布局复用" />
 
     <Button
-        android:id="@+id/btn_multi_listoptions"
+    android:id="@+id/btn_multi_listoptions"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/btn_convert_listoptions"
+    android:text="多种布局及复用" />
+
+    <Button
+        android:id="@+id/btn_right_listoptions"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn_convert_listoptions"
-        android:text="多种布局及复用" />
+        android:layout_below="@id/btn_multi_listoptions"
+        android:text="多种布局及复用（正确姿势）" />
 
 </RelativeLayout>

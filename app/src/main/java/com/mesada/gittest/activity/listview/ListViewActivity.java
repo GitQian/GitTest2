@@ -18,6 +18,8 @@ import java.util.zip.Inflater;
 
 public class ListViewActivity extends AppCompatActivity {
 
+    private final String TAG = this.getClass().toString();
+
     private ListView listView;
     private List<String> list;
 
@@ -105,9 +107,11 @@ public class ListViewActivity extends AppCompatActivity {
                 viewHolder = new ViewHolder();
                 viewHolder.itemTv = (TextView) convertView.findViewById(R.id.tv_list_item);
 
+                Log.i(TAG, "convertView is null");
                 convertView.setTag(viewHolder);
             }else {
                 viewHolder = (ViewHolder) convertView.getTag();
+                Log.i(TAG, "convertView is not null!!!");
             }
             //这里做View真正工作
             viewHolder.itemTv.setText(list.get(position));

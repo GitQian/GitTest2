@@ -46,7 +46,9 @@ public class MultiLayoutActivity extends AppCompatActivity {
         }
 
         /**
-         * 通过log发现，复用率跟划动速度还有关系
+         * 通过log发现，复用率跟划动速度还有关系?
+         * 这种方式，复用率有问题！
+         * 应该通过重新getViewTypeCount()、getItemViewType(int)！！！
          */
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
