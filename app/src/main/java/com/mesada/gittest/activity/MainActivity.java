@@ -9,6 +9,7 @@ import android.widget.Button;
 import com.mesada.gittest.R;
 import com.mesada.gittest.activity.listview.ListOptionsActivity;
 import com.mesada.gittest.activity.listview.ListViewActivity;
+import com.mesada.gittest.activity.recyclerview.RecyclerViewOptionsActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -33,7 +34,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.btn_recyclerview_main:
-
+                Intent intent1 = new Intent(MainActivity.this, RecyclerViewOptionsActivity.class);
+                startActivity(intent1);
                 break;
 
             default:

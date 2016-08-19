@@ -19,7 +19,9 @@
         <activity android:name=".activity.listview.ListViewActivity" />
         <activity android:name=".activity.listview.ListOptionsActivity" />
         <activity android:name=".activity.listview.MultiLayoutActivity" />
-        <activity android:name=".activity.listview.MultiLayoutRightActivity"></activity>
+        <activity android:name=".activity.listview.MultiLayoutRightActivity" />
+        <activity android:name=".activity.recyclerview.RecyclerViewOptionsActivity" />
+        <activity android:name=".activity.recyclerview.RecyclerViewEasyActivity"></activity>
     </application>
 
 </manifest>
